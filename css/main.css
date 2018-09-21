@@ -1,0 +1,35 @@
+:root {
+  --font-primary:'Roboto', sans-serif;
+  --font-secondary:'Lato', sans-serif;
+}
+html {
+  font-family: var(--font-primary);
+}
+
+.bg {
+  background-image: url(../images/ideas.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.info {
+  position: absolute;
+  bottom: 8px;
+  left: 25.5%;
+  transform: translate(8px, 25.5%);
+  color: white;
+}
+
+h2, h3 {
+  font-family: var(--font-secondary);
+}
