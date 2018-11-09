@@ -7,29 +7,56 @@ html {
 }
 
 .bg {
-  background-image: url(../images/ideas.jpg);
+  background-image: url(../images/jordan.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%
 }
 
 .centered {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #696969;
 }
 
-.info {
-  position: absolute;
-  bottom: 8px;
-  left: 25.5%;
-  transform: translate(8px, 25.5%);
-  color: white;
+a {
+  text-decoration: none;
+  outline: none;
+  font-size: 14px;
 }
 
-h2, h3 {
-  font-family: var(--font-secondary);
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-menu {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  position: relative;
+}
+
+.footer .copyright {
+    width: 80%;
+    position: relative;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 10px 0 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 10px;
+    color: #a4a4a4;
+}
+
+.footer .footer-menu {
+  line-height: 20px;
+  padding: 10px;
+  color: #a4a4a4;
 }
